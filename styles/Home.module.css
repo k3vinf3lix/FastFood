@@ -1,0 +1,60 @@
+.container{
+    padding: 1rem 2rem;
+}
+
+.containerPizza{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.containerPizza> span{
+    position: relative;
+}
+
+.infors{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.detalhes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.imgPizza{
+    position: relative;
+    margin-left: 5px;
+    margin-top: 50px;
+}
+
+.inforPizza{
+    font-size: 15px;
+    font-weight: 800;
+    margin-left: 62px;
+    position:relative;
+}
+
+.infor2Pizza{
+    font-size: 15px;
+    font-weight: 800;
+    margin-left: 10px;
+}
+
+.botaoPizza{
+    width: max-content;
+    height: 25px;
+    font-weight: 800;
+    font-size: 10px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    background-color: var(--themeRed);
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+    margin-right: 40px;
+}

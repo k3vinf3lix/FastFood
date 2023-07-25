@@ -1,0 +1,25 @@
+.container{
+    padding: 1rem 2rem;
+}
+
+.containerPizza{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.containerPizza> span{
+    position: relative;
+}
+
+.infors{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.detalhes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

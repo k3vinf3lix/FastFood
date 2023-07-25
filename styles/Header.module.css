@@ -1,0 +1,72 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+};
+
+.logo{
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+
+    gap: 2px;
+    flex: 1;
+}
+
+.logo>span{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.menu{
+    font-size: 15px;
+    font-weight: 500;
+    flex: 5;
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    justify-content: center;
+    z-index: 99;
+    margin-left: 90px;
+}
+
+.menu>li:hover{
+    cursor: pointer;
+    color: var(--themeRed);
+}
+
+.rightSide{
+    flex: 1;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.cart{
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.badge{
+    position: absolute;
+    display: flex;
+    color: white;
+    background-color: var(--themeRed);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    right: -0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgPizza{
+    margin-top: 3rem;
+}

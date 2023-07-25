@@ -1,0 +1,48 @@
+.titleText{
+    font-weight: 900;
+    font-size: 26px;
+    margin-left: 530px;
+    font-weight: 900;
+}
+
+.miniText2{
+    width: 70%;
+    color: var(--themeRed);
+    font-weight: 800;
+    font-size: 12px;
+    display: flex;
+    margin-left: 565px;
+}
+
+.miniText3{
+    width: 70%;
+    color: var(--themeRed);
+    font-weight: 800;
+    font-size: 10px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 595px;
+}
+
+.ImageContainer{
+    width: 220px;
+    margin-top: 60px;
+    margin-left: 580px;
+}
+
+.botaoPizza2{
+    font-family: 'Poppins', sans-serif;
+    width: 170px;
+    height: 40px;
+    font-weight: 800;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 30px;
+    align-items: center;
+    text-align: center;
+    margin-left: 610px;
+    margin-top: 50px;
+}
